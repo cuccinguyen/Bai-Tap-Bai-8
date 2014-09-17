@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    IBOutlet UITextField *HoVaTen;
+    IBOutlet UITextField *NamSinh;
+    IBOutlet UITextField *Tuoi;
+  
+    IBOutlet UILabel *TuoiHT;
+    IBOutlet UILabel *NamSinhHT;
+    IBOutlet UILabel *HoVaTenHT;
+}
+- (IBAction)XacNhan:(id)sender;
 
 @end
